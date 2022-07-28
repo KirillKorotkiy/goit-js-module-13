@@ -1,0 +1,15 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    height: 200px;
+    display:inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  

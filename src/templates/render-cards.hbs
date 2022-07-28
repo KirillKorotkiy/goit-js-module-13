@@ -1,0 +1,32 @@
+{{#each this}}
+{{#each this}}
+  <div class='photo-card'> 
+   <a class="gallery__link"  
+   href="{{largeImageURL}}" 
+        data-pswp-width="1600"
+        data-pswp-height="1000" 
+        target="_blank">
+    <img src='{{largeImageURL}}' alt='' loading='lazy'/>
+    </a> 
+    <div class='info'>
+      <p class='info-item'>
+        <b>Likes</b>
+        {{likes}}
+      </p>
+      <p class='info-item'>
+        <b>Views</b>
+        {{views}}
+      </p>
+      <p class='info-item'>
+        <b>Comments</b>
+        {{comments}}
+      </p>
+      <p class='info-item'>
+        <b>Downloads</b>
+        {{downloads}}
+      </p>
+    </div>
+  </div> 
+  {{/each}}
+{{/each}}
+
