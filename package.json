@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://KirillKorotkiy.github.io/goit-js-module-13",
+  "homepage": "https://KirillKorotkiy.github.io/goit-js-module-12",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-module-13/"
