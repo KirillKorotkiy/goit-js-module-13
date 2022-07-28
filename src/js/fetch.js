@@ -1,7 +1,6 @@
 import axios from "axios";
 
-
-export default class SearchRequire {
+class SearchRequire {
   constructor() {
     this.searchQuey = '';
     this.page = 1;
@@ -35,5 +34,8 @@ export default class SearchRequire {
   }
 
 }
+
+
+export default SearchRequire
 
 
