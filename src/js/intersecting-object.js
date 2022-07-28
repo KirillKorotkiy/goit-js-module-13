@@ -4,7 +4,7 @@ import Notiflix from "notiflix";
 import scroll from "./scroll";
 import seacrRequire from "../index";
 
- function intersectionObject () {
+export default function intersectionObject () {
     const options = {
         rootMargin: '150px',
     }
@@ -29,4 +29,4 @@ import seacrRequire from "../index";
     io.observe(refs.observerRef)
 }
  
-export default intersectionObject
+

@@ -35,7 +35,6 @@ class SearchRequire {
 
 }
 
-
 export default SearchRequire
 
 
