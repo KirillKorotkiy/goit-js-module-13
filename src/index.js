@@ -7,11 +7,10 @@ import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
 import '../node_modules/photoswipe/dist/photoswipe.css';
 import createElements from './js/create-elements';
 
-
-
 refs.formRef.addEventListener('submit', seacrhImages);
 
 export default seacrRequire = new SearchRequire();
+
 
 function seacrhImages(event) {
   event.preventDefault();
