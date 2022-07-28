@@ -1,4 +1,4 @@
-export default function scroll() {
+ function scroll() {
     const { height: cardHeight } = document
     .querySelector(".js-articles")
     .firstElementChild.getBoundingClientRect();
@@ -9,4 +9,4 @@ window.scrollBy({
 });
 }
 
-
+export default scroll

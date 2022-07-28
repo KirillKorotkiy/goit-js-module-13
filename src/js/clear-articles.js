@@ -1,5 +1,7 @@
 import refs from "./refs";
 
-export default function clearArticles (){
+ function clearArticles (){
     refs.articelesRef.innerHTML = ''; 
 }
+
+export default clearArticles
