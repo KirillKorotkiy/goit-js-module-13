@@ -9,8 +9,8 @@ import createElements from './js/create-elements';
 
 refs.formRef.addEventListener('submit', seacrhImages);
 
-export default seacrRequire = new SearchRequire();
-
+const seacrRequire = new SearchRequire()
+export default seacrRequire;
 
 function seacrhImages(event) {
   event.preventDefault();
